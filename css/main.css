@@ -1,0 +1,61 @@
+/*<style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>?*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    background: white url('../images/pattern-curve.svg');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size:65%;
+    margin :0;
+    padding: 1em;
+    padding-bottom: 5em;
+}
+.image{
+    background: url('../images/pattern-bg.svg');
+    width: auto;
+    color : white;
+    padding:2em;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;  
+   
+
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    color:hsl(240, 38%, 20%);
+    padding: 1em 0.5em 0.5em 1em;
+}
+
+h4{
+    text-align: center;
+    margin:0;
+}
+h5{
+    text-align: center;
+    margin:0;
+    color: hsl(240, 18%, 77%);
+    font-weight:300px;
+}
+img {
+    width:75%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .5em;
+    box-shadow: 0px 10px 8px #888888;
+}
+.second{
+    display: none;
+}
+.attribution{
+    display:none;
+}
